@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f3d32"/><stop offset="100%" stop-color="#07110e"/></linearGradient>
+    <linearGradient id="btn" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#6ee7b7"/><stop offset="100%" stop-color="#059669"/></linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <text x="64" y="78" fill="#ecfdf5" font-size="30" font-weight="700" font-family="Segoe UI, Arial">PromptVault</text>
+  <text x="64" y="114" fill="#86a89a" font-size="18" font-family="Segoe UI, Arial">AI prompt saver · search · one-click inject</text>
+  <rect x="64" y="140" width="180" height="44" rx="22" fill="url(#btn)"/>
+  <text x="154" y="168" text-anchor="middle" fill="#052e25" font-size="15" font-weight="700" font-family="Segoe UI, Arial">Install extension</text>
+  <rect x="700" y="110" width="420" height="520" rx="22" fill="#12201c" stroke="rgba(134,168,154,0.25)"/>
+  <rect x="728" y="140" width="40" height="40" rx="10" fill="url(#btn)"/>
+  <text x="740" y="166" fill="#052e25" font-size="12" font-weight="800" font-family="Segoe UI, Arial">PV</text>
+  <text x="782" y="156" fill="#ecfdf5" font-size="16" font-weight="700" font-family="Segoe UI, Arial">PromptVault</text>
+  <text x="782" y="176" fill="#86a89a" font-size="12" font-family="Segoe UI, Arial">Save · search · inject</text>
+  <rect x="728" y="210" width="364" height="40" rx="10" fill="#07110e" stroke="rgba(134,168,154,0.2)"/>
+  <text x="744" y="236" fill="#86a89a" font-size="13" font-family="Segoe UI, Arial">Search prompts&</text>
+  <rect x="728" y="270" width="364" height="78" rx="12" fill="#07110e" stroke="rgba(134,168,154,0.2)"/>
+  <text x="744" y="300" fill="#ecfdf5" font-size="14" font-weight="700" font-family="Segoe UI, Arial">Code review</text>
+  <text x="744" y="324" fill="#86a89a" font-size="12" font-family="Segoe UI, Arial">Review this PR for security&</text>
+  <rect x="728" y="364" width="364" height="78" rx="12" fill="#07110e" stroke="rgba(134,168,154,0.2)"/>
+  <text x="744" y="394" fill="#ecfdf5" font-size="14" font-weight="700" font-family="Segoe UI, Arial">SEO brief</text>
+  <text x="744" y="418" fill="#86a89a" font-size="12" font-family="Segoe UI, Arial">Write a Rank Math brief&</text>
+  <rect x="728" y="458" width="364" height="78" rx="12" fill="#07110e" stroke="rgba(134,168,154,0.2)"/>
+  <text x="744" y="488" fill="#ecfdf5" font-size="14" font-weight="700" font-family="Segoe UI, Arial">Laravel refactor</text>
+  <text x="744" y="512" fill="#86a89a" font-size="12" font-family="Segoe UI, Arial">Refactor this service&</text>
+  <text x="64" y="680" fill="#64748b" font-size="14" font-family="Segoe UI, Arial">Imran Ahmed · imrandev.bd/contact</text>
+</svg>

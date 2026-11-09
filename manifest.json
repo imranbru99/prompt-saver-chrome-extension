@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "PromptVault — AI Prompt Saver",
+  "version": "2.0.0",
+  "description": "Save, search, and one-click inject prompts into Gemini, ChatGPT, Claude, and other AI editors. Private local storage.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_title": "PromptVault",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

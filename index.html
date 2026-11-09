@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PromptVault — AI Prompt Saver Chrome Extension | Imran Ahmed</title>
+  <meta name="description" content="PromptVault saves, searches, and one-click injects your best AI prompts into Gemini, ChatGPT, Claude, and more. Private local storage." />
+  <meta name="author" content="Imran Ahmed" />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&family=Sora:wght@600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root{--bg:#07110e;--ink:#ecfdf5;--muted:#86a89a;--line:rgba(134,168,154,.2);--card:#12201c;--accent:#34d399}
+    *{box-sizing:border-box}body{margin:0;font-family:Manrope,system-ui,sans-serif;color:var(--ink);background:radial-gradient(900px 480px at 10% -10%,rgba(52,211,153,.18),transparent 55%),var(--bg)}
+    a{color:var(--accent);text-decoration:none}.wrap{width:min(1100px,calc(100% - 2rem));margin:0 auto}
+    nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0}.brand{display:flex;gap:10px;align-items:center;font-family:Sora,sans-serif;font-weight:700}
+    .mark{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;background:linear-gradient(145deg,#6ee7b7,#059669);color:#052e25;font-size:12px;font-weight:800}
+    .btn{display:inline-flex;padding:11px 16px;border-radius:999px;border:1px solid var(--line);color:var(--ink);font-weight:700}
+    .btn.primary{background:linear-gradient(180deg,#6ee7b7,#059669);color:#052e25;border:0}
+    .hero{display:grid;grid-template-columns:1.05fr .95fr;gap:28px;padding:24px 0 64px;align-items:center}
+    @media(max-width:900px){.hero{grid-template-columns:1fr}}
+    h1{font-family:Sora,sans-serif;font-size:clamp(2rem,4vw,3.1rem);line-height:1.08;margin:0 0 14px}
+    .lede{color:var(--muted);font-size:1.05rem;line-height:1.65;max-width:34rem}
+    .actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+    .dash{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:18px;box-shadow:0 28px 70px rgba(0,0,0,.35)}
+    .row{display:flex;justify-content:space-between;gap:8px;padding:10px 12px;border-radius:10px;background:#07110e;border:1px solid var(--line);margin-bottom:8px;font-size:13px}
+    section{padding:8px 0 64px}section h2{font-family:Sora,sans-serif;margin:0 0 10px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+    @media(max-width:800px){.grid{grid-template-columns:1fr}}
+    .card{background:rgba(255,255,255,.03);border:1px solid var(--line);border-radius:16px;padding:18px}
+    .card h3{margin:0 0 8px}.card p{margin:0;color:var(--muted);line-height:1.55}
+    footer{border-top:1px solid var(--line);padding:36px 0 50px;color:var(--muted);font-size:14px}
+    footer h3{color:var(--ink);font-family:Sora,sans-serif}.contacts{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px 14px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav>
+      <div class="brand"><span class="mark">PV</span> PromptVault</div>
+      <div style="display:flex;gap:10px">
+        <a class="btn" href="https://github.com/imranbru99/prompt-saver-chrome-extension">GitHub</a>
+        <a class="btn primary" href="https://imrandev.bd/contact">Hire Imran</a>
+      </div>
+    </nav>
+    <section class="hero">
+      <div>
+        <div style="color:var(--accent);text-transform:uppercase;letter-spacing:.14em;font-size:12px;font-weight:700;margin-bottom:12px">Chrome extension · MV3</div>
+        <h1>Your best prompts, one click from any AI chat.</h1>
+        <p class="lede">PromptVault stores prompts privately, lets you search by title/tags, and injects into Gemini, ChatGPT, Claude, and other contenteditable editors.</p>
+        <div class="actions">
+          <a class="btn primary" href="https://github.com/imranbru99/prompt-saver-chrome-extension">Install from GitHub</a>
+        </div>
+      </div>
+      <aside class="dash">
+        <div style="display:flex;gap:10px;align-items:center;margin-bottom:12px">
+          <span class="mark">PV</span>
+          <div><strong>PromptVault</strong><div style="color:var(--muted);font-size:12px">Save · search · inject</div></div>
+        </div>
+        <div class="row"><span>Code review</span><span style="color:var(--accent)">Inject</span></div>
+        <div class="row"><span>SEO brief</span><span style="color:var(--accent)">Inject</span></div>
+        <div class="row"><span>Laravel refactor</span><span style="color:var(--accent)">Inject</span></div>
+      </aside>
+    </section>
+    <section>
+      <h2>Features</h2>
+      <div class="grid">
+        <article class="card"><h3>One-click inject</h3><p>Pastes into the active page editor — Gemini and other AI chats.</p></article>
+        <article class="card"><h3>Search + tags</h3><p>Find prompts fast with live search and comma-separated tags.</p></article>
+        <article class="card"><h3>Private storage</h3><p>Everything stays in <code>chrome.storage.local</code>. No cloud sync required.</p></article>
+      </div>
+    </section>
+    <footer>
+      <h3>Custom AI tooling — Imran Ahmed</h3>
+      <p>Need team prompt libraries, sync, or Chrome Web Store packaging? Contact for future development.</p>
+      <div class="contacts">
+        <a href="https://imrandev.bd/contact">imrandev.bd/contact</a>
+        <a href="mailto:me@imrandev.bd">me@imrandev.bd</a>
+        <a href="https://wa.me/8801576918420">WhatsApp +880 1576-918420</a>
+        <a href="https://github.com/imranbru99">GitHub</a>
+        <a href="https://linkedin.com/in/imranbru99">LinkedIn</a>
+        <a href="https://x.com/imrandev_bd">X / Twitter</a>
+        <a href="https://youtube.com/@ImranDevBD">YouTube</a>
+        <a href="https://instagram.com/imranbru99">Instagram</a>
+        <a href="https://facebook.com/ExpertImranDev">Facebook</a>
+        <a href="https://tiktok.com/@imrandev_bd">TikTok</a>
+        <a href="https://www.threads.net/@imranbru99">Threads</a>
+        <a href="https://pinterest.com/imrandev_bd">Pinterest</a>
+        <a href="https://linktr.ee/ExpertImranDev">Linktree</a>
+      </div>
+      <p style="margin-top:20px">© Imran Ahmed · PromptVault · MIT</p>
+    </footer>
+  </div>
+</body>
+</html>

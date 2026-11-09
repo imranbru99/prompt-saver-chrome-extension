@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PromptVault</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <header class="top">
+      <div class="brand">
+        <span class="mark">PV</span>
+        <div>
+          <h1>PromptVault</h1>
+          <p>Save · search · inject</p>
+        </div>
+      </div>
+      <button type="button" id="toggle-form-btn" class="btn secondary">+ New</button>
+    </header>
+
+    <div class="stats">
+      <div><span id="count">0</span><small>prompts</small></div>
+      <div><span id="hint">Click</span><small>to inject</small></div>
+    </div>
+
+    <input type="search" id="search" placeholder="Search prompts…" aria-label="Search prompts" />
+
+    <div id="input-container" class="card hidden">
+      <input type="hidden" id="edit-id" />
+      <input type="text" id="prompt-title" placeholder="Title (e.g. Code review)" />
+      <input type="text" id="prompt-tags" placeholder="Tags (comma separated)" />
+      <textarea id="prompt-content" rows="5" placeholder="Paste your prompt…"></textarea>
+      <div class="btn-group">
+        <button type="button" id="save-btn" class="btn primary">Save</button>
+        <button type="button" id="cancel-btn" class="btn ghost">Cancel</button>
+      </div>
+    </div>
+
+    <div id="prompt-list" class="scroll-area"></div>
+    <p id="toast" class="toast" hidden></p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
